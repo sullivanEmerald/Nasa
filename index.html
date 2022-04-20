@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Nasa Api</title>
+</head>
+<body>
+    <header class="clearfix">
+        <img src="images/headerImage.jpg" alt="nasa2" id="headerImage"><span>Nasa API</span> 
+        <nav>
+            <ul>
+                <li><a href="">View Picture Of The Day</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+        </nav>
+        <span>Contact Me: Discord: Sullivan #8463</span>
+    </header>
+    <h1>Nasa Picture of the day.... whoop, I hacked NASA!!</h1>
+    <section class="clearfix">
+        <section>
+            <img src="images/nasa1.jpg" alt="Nasa Image of the Day">
+        </section>
+        <section>
+            <h1>About Nasa</h1>
+            <p> 
+                The National Aeronautics and Space Administration is America’s civil space program and the global leader in space exploration. The agency has a diverse workforce of just under 18,000 civil servants, and works with many more U.S. contractors, academia, and international and commercial partners to explore, discover, and expand knowledge for the benefit of humanity. With an annual budget of $23.2 billion in Fiscal Year 2021, which is less than 0.5% of the overall U.S. federal budget, NASA supports more than 312,000 jobs across the United States, generating more than $64.3 billion in total economic output (Fiscal Year 2019). 
+
+                At its 20 centers and facilities across the country – and the only National Laboratory in space – NASA studies Earth, including its climate, our Sun, and our solar system and beyond. We conduct research, testing, and development to advance aeronautics, including electric propulsion and supersonic flight. We develop and fund space technologies that will enable future exploration and benefit life on Earth.
+
+                NASA also leads a Moon to Mars exploration approach, which includes working with U.S. industry, international partners, and academia to develop new technology, and send science research and soon humans to explore the Moon on Artemis missions that will help prepare for human exploration of the Red Planet. In addition to those major missions, the agency shares what it learns so that its information can make life better for people worldwide. For example, companies use NASA discoveries and technologies to create new products for the public. To ensure future success for the agency and the nation, NASA also supports education efforts in STEM with an emphasis on increasing diversity in our future
+            </p>
+        </section>
+    </section>
+
+    <h1 class="clearfix">Want To See The Nasa Picture Of any Day? C'Mon, Just put the day</h1>
+
+    <!-- second section -->
+    <section class="clearfix">
+        <label for="day">Enter Day</label>
+        <input type="date" name="date" id="day">
+
+        <button type="button" id="fetchPicture">Get Image</button>
+
+
+        <h1 id="pictureName"></h1>
+        <iframe class="hidden"></iframe>
+        <img src="" alt="Nasa Picture Of The Day" id="productImage" class="hidden">
+        <h3></h3>
+        <quote id="description"></quote>
+    </section>
+<script src="js/main.js"></script>
+</body>
+</html>

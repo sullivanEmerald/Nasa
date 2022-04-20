@@ -1,0 +1,177 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url("../images/favourite.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+    
+}
+
+
+.clearfix:after{
+    content: ".";
+    visibility: hidden;
+    display: block;
+    clear: both;
+    line-height: 0;
+    height: 0;
+}
+.clear{
+    clear: both;
+}
+
+img#headerImage{
+    height: 50px;
+    border-radius: 10px;
+    width: 5%;
+    margin:10px;
+    height: 35px;
+    opacity: 80%;
+    
+
+}
+
+header + h1 + section section, header > *{
+    float:left;
+    width: 50%;
+    
+}
+
+header > *{
+    width: 30%;
+    list-style: none;
+    line-height: 3;
+    font-size: 20px;
+    margin-right: 60px;
+    
+
+    
+}
+
+header span{
+    width: 25%;
+}
+
+
+
+header nav ul{
+    width: 100%;
+    list-style: none;
+}
+
+header nav ul li{
+    width: 50%;
+    float: left;
+    padding-left: 5px;
+    border-radius: 5px;
+    font-size: 17px;
+    line-height: 3;
+    
+
+   
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color:cornflowerblue;
+}
+
+header nav ul li a:hover{
+    border: 1px solid crimson;
+    color:red;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+h1{
+    color: cornflowerblue;
+}
+
+header + h1{
+    clear: both;
+    text-align: center;
+    color: cornflowerblue;
+    margin-top: 30px;
+}
+
+header + h1 + section{
+    margin-top:30px;
+}
+
+header + h1 + section + h1{
+    clear: both;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* STYLING ALL IMAGES COMING FROM NASA API */
+
+img{
+    height: 300px;
+    margin:25px 30px;
+    border-radius: 20px;
+    width: 90%;
+}
+
+#productImage{
+    width: 50%;
+    margin:25px 25%;
+}
+
+
+/* SECOND SECTION */
+
+body >header + h1+ section + h1+ section{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+section > label{
+    font-size: 30px;
+    font-weight: bold;
+    color:cornflowerblue;
+    margin-right: 10px;
+}
+section > label + input{
+    width: 10%;
+    height: 30px;
+}
+
+section > label + input + button{
+    width:100px;
+    height: 30px;
+    border-radius: 5px;
+    text-align: center;
+    color:cornflowerblue;
+    letter-spacing: 2px;
+    cursor: pointer;
+
+}
+
+section > label + input + button + h1{
+    margin-top: 20px;
+    text-align: center;
+}
+
+section > label + input + button + h1 + iframe + img + h3{
+    text-align: center;
+    color:cornflowerblue;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+iframe{
+    margin:10px auto;
+    display: block;
+}
+
+.hidden{
+    display: none;
+}
+
